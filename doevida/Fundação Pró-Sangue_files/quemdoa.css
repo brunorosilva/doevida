@@ -1,0 +1,40 @@
+﻿#quemdoa
+{
+    width:620px;
+    padding-left:30px;
+    margin:0 auto;
+    padding-bottom:50px;
+}
+#quemdoa table
+{
+    border-collapse:collapse;
+    margin-right:30px;
+    margin-top: 30px;
+    float:left;
+    width:280px;
+    height:170px;
+    #height:auto;
+    font-size:15px;
+    letter-spacing:3px;
+}
+#quemdoa thead tr th
+{
+    background-color:#DE0000;
+    color:#FFFFFF;
+    font-weight:bold;
+    height:33px;
+    border:2px solid #d9dbdc;
+}
+#quemdoa tbody tr:first-child td
+{
+    font-weight:bold;
+    height:20px;
+    letter-spacing:0;
+    padding:3px 0;
+}
+#quemdoa tbody tr td
+{
+    text-align:center;
+    border:2px solid #d9dbdc;
+    #padding:5px;
+}

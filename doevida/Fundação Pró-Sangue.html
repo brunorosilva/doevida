@@ -1,0 +1,909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0074)http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- Mirrored from www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Nov 2017 10:51:37 GMT --><!-- Added by HTTrack --><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><!-- /Added by HTTrack -->
+<title>
+	Fundação Pró-Sangue
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="shortcut icon" type="image/ico" href="http://www.prosangue.sp.gov.br/favicon.ico"><link href="./Fundação Pró-Sangue_files/global.css" rel="stylesheet" type="text/css"><link href="./Fundação Pró-Sangue_files/global-contraste.css" rel="stylesheet" type="text/css"><link href="./Fundação Pró-Sangue_files/fontsize.css" rel="stylesheet" type="text/css">
+  <!--[if IE]>
+    <link href="../css/menuie.css" rel="Stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 8]>
+    <link href="../css/ieoito.css" rel="Stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 9]>
+    <link href="../css/masterie.css" rel="Stylesheet" type="text/css" />
+  <![endif]-->
+  <script type="text/javascript" async="" src="./Fundação Pró-Sangue_files/ga.js.download"></script><script id="facebook-jssdk" src="./Fundação Pró-Sangue_files/all.js.download"></script><script type="text/javascript" src="./Fundação Pró-Sangue_files/jquery-1.7.2.min.js.download"></script>
+  <script src="./Fundação Pró-Sangue_files/font_size.js.download" type="text/javascript"></script>
+  <script src="./Fundação Pró-Sangue_files/cookie.js.download" type="text/javascript"></script>
+  <script src="./Fundação Pró-Sangue_files/jquery.watermarkinput.js.download" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(
+      function () {
+        ////////////Efeito de contraste
+        if ($.cookie("contraste") != null) {
+          if ($.cookie("contraste") == "preto") {
+            $("body").addClass("contraste");
+          }
+          else if ($.cookie("contraste") == "branco") {
+            $("body").removeAttr("class");
+          }
+        }
+        //////////////////Efeito de contraste
+        $(".contraste_out").click(function () {
+          $("body").addClass("contraste");
+          $.cookie("contraste", "preto", { path: "/" });
+        })
+        $(".contraste_in").click(function () {
+          $("body").removeClass("contraste");
+          $.cookie("contraste", "branco", { path: "/" });
+        })
+
+        ////////////////////////////////////
+        /*Script de font*/
+        $("body").fontSize();
+        if ($.cookie("fontSize") != null) {
+          $(alvo).addClass($.cookie("fontSize"));
+        } else {
+          $(alvo).addClass("tam" + padrao);
+        }
+        /////////////////////////////////////
+        ajustaRodape();
+        $('.mais, .menos').click(function () {
+          ajustaRodape();
+        });
+        $('.pesquisar').Watermark('PESQUISAR');
+        //atualiza();
+      }
+    );
+    function ajustaRodape() {
+      topencontre = Math.round(($('#links .links').height() - 388) * 0.65);
+
+      $('#links').height($('#links .links').height()).find('#encontre').css('margin-top', topencontre + 'px');
+    }
+
+    var patt1 = new RegExp("Safari");
+    var patt2 = new RegExp("Chrome");
+    var patt3 = new RegExp("NET");
+    var pattern = navigator.userAgent;
+    function chatonline(culture) {
+      if (culture == undefined) {
+        eval($('#onchat a').attr('href'));
+        return;
+      }
+      if ((patt1.test(pattern)) && (!patt2.test(pattern))) {
+        window.open('../faleConosco/Login.aspx?Idioma=' + culture, '_blank', 'width=462, height=473, resizable=0');
+      }
+      else {
+        if (patt3.test(pattern)) {
+          window.open('../faleConosco/Login.aspx?Idioma=' + culture, '_blank', 'width=458, height=529, resizable=0');
+        }
+        else {
+          if (patt2.test(pattern)) {
+            window.open('../faleConosco/Login.aspx?Idioma=' + culture, '_blank', 'width=462, height=533, resizable=0');
+          }
+          else{
+            window.open('../faleConosco/Login.aspx?Idioma=' + culture, '_blank', 'width=464, height=534, resizable=0');
+          }
+        }
+      }
+      return void(0);
+    }
+
+    function ValidaPesquisa() {
+      if (txtPesquisar.value.length <= 3) {
+          alert("Você deve digitar um texto com mais de três caracteres.");
+        return false;
+      }
+      else
+        return true;
+    }
+  </script>
+  
+  <link rel="Stylesheet" type="text/css" href="./Fundação Pró-Sangue_files/colorbox.css">
+  <script type="text/javascript" src="./Fundação Pró-Sangue_files/easyTooltip.js.download"></script>
+  <script type="text/javascript" src="./Fundação Pró-Sangue_files/jquery.colorbox-min.js.download"></script>
+  <script src="./Fundação Pró-Sangue_files/cookie.js.download" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".icones a, .usuario a").easyTooltip();
+      $(".icones a.compartilhar, .usuario a.compartilhar").colorbox({ iframe: true, width: 350, height: 150, scrolling: false });
+      $("#downloads li a").colorbox({rel:"grupo1"});
+      $('#cboxOverlay').attr('title', "Clique para fechar");
+      
+    });
+  </script>
+  
+  <link href="./Fundação Pró-Sangue_files/quemdoa.css" rel="stylesheet" type="text/css">
+  <link href="./Fundação Pró-Sangue_files/etapasdoacao.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="./Fundação Pró-Sangue_files/AC_RunActiveContent.js.download"></script>
+  <script src="./Fundação Pró-Sangue_files/etapasDoacao.js.download" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(
+    function () {
+      $('.continue').click(
+      function () {
+        $(this).parent().addClass('hide').parent().find('div.hide').slideDown(600, function () {
+          $(this).removeClass('hide');
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#ulcert a").colorbox();
+      $('#cboxOverlay').attr('title', "Clique para fechar");
+    });
+  </script>
+  <!--[if lte IE 8]>
+    <style>
+      #etapas_doacao .menu
+      {
+        border: 1px solid #d3d3d3;
+      }
+    </style>
+  <![endif]-->
+
+<link href="./Fundação Pró-Sangue_files/WebResourcebb22.css" type="text/css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./Fundação Pró-Sangue_files/topo-basico-sp.min.css"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{height:100%;overflow:hidden;position:fixed;width:100%}.fb_shrink_active{opacity:1;transform:scale(1, 1);transition-duration:200ms;transition-timing-function:ease-out}.fb_shrink_active:active{opacity:.5;transform:scale(.75, .75)}</style></head>
+
+<body>
+  <form method="post" action="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Fundação Pró-Sangue_files/WebResource38f5.js.download" type="text/javascript"></script>
+
+
+<script src="./Fundação Pró-Sangue_files/ScriptResourceb5cc.js.download" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource4c1a.js.download" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource90c9.js.download" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource01ab.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResourcea6e6.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResourcec9be.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResourcef849.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource5379.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource4840.axd" type="text/javascript"></script>
+<script src="./Fundação Pró-Sangue_files/ScriptResource2e0b.axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAyvVXD1oYELeveMr0vHCmYPYOkrubhQqCeU5KrGJ4A/bpT3A0SvHZfcVT2boXEBq72Xx0x1zgUfc8FiPIuOdRZYqE2MtYe3WZkZltbc2Rbr2HCKULUtXrToh5fNU5gs6O3Wwb1DVSKBxsugMClKAi00yLEiztB4uIWX8dRpO1zuVucHDJ7wxVFCAIqdBgqkqQj1AiBpWTAdgEfjrYsyBp0AXRP5AMA9G/KWlzALLsSAlY1j7BygmKq8YR5DmsbJFNxc6OLG8COWqCldod1H6SB5AHWDxKCJXU+oR9oa1d1ERQ==">
+</div>
+    <input type="hidden" name="ctl00$ctl00$hfCodCliente" id="hfCodCliente" value="5">
+    <div id="header">
+      <section class="govsp-topo">    
+    <div id="govsp-topbarGlobal" class="blu-e">
+            <div id="topbarGlobal">
+                <div id="topbarLink" class="govsp-gray">
+                <div class="govsp-portal">
+                    <a href="http://www.saopaulo.sp.gov.br/" target="_blank">saopaulo.sp.gov.br</a>
+                </div> 
+            </div>
+            <nav class="govsp-navbar govsp-navbar-expand-lg">
+                    <a class="govsp-link" href="http://www.cidadao.sp.gov.br/" target="_blank">Cidadão SP</a>
+                    <a class="govsp-social" href="https://www.facebook.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/facebook.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.twitter.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/twitter.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.instagram.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/insta.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.flickr.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/flickr.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.youtube.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/youtube.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.issuu.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/issuu.png" alt="Facebook Governo de São Paulo"></a>
+                    <a class="govsp-social" href="https://www.linkedin.com/company/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/linkedin.png" alt="Facebook Governo de São Paulo"></a>
+                    <p class="govsp-social">/governosp</p>
+                   
+            </nav>
+        </div>
+        <div class="govsp-kebab">
+                <figure></figure>
+                <figure class="govsp-middle"></figure>
+                <p class="govsp-cross"></p>
+                <figure></figure>
+                <ul class="govsp-dropdown">              
+                    <li><a class="govsp-link" href="http://www.cidadao.sp.gov.br/" target="_blank">Cidadão SP</a>
+                    </li><li><a class="govsp-social" href="https://www.facebook.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/facebook.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.twitter.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/twitter.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.instagram.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/insta.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.flickr.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/flickr.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.youtube.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/youtube.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.issuu.com/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/issuu.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li><a class="govsp-social" href="https://www.linkedin.com/company/governosp/" target="_blank"><img class="govsp-icon-social" src="./Fundação Pró-Sangue_files/linkedin.png" alt="Facebook Governo de São Paulo"></a></li>
+                    <li></li><p class="govsp-social">/governosp</p>
+                </ul> 
+        </div>
+    </div>
+    <script src="./Fundação Pró-Sangue_files/script.js.download"></script>
+    <script type="text/javascript" src="./Fundação Pró-Sangue_files/jquery.min.js.download"></script>
+    <script>
+            try{jQuery(window).scroll(function(){
+            var scroll=jQuery(window).scrollTop();
+            if(scroll>=50){
+                jQuery('ul.govsp-dropdown.govsp-active').addClass('hide-dropdown');
+            }
+            else{jQuery('ul.govsp-dropdown.govsp-active').removeClass('hide-dropdown');
+            }
+            });
+            }catch(e){console.log("Syntax Error in Custom JS")}
+    </script> 
+</section>
+ 
+<!-- 
+        <div id="barrasp">
+          <div class="centro">
+            <iframe id="iframeGoverno" scrolling="no" frameborder="0" marginwidth="0" marginheight="0" src="http://www.saopaulo.sp.gov.br/barrasp/barrasp_full.htm"></iframe>
+          </div>
+        </div>
+-->      
+      <div id="topo">
+        <div class="centro">
+          <h1 class="fl"><a href="http://www.prosangue.sp.gov.br/home/Default.html" title="Home">Fundação Pró-Sangue Hemocentro de São Paulo<span>« Voltar para a home</span></a></h1>
+          <div class="fr">
+            <div id="linguas">
+              <a href="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao112b.html?Idioma=pt-BR" title="Português - Brasil" class="idiBrasil">[Português - Brasil] </a><!--<a href='?Idioma=en-US' title='English' class='idiIngles'>[English] </a><a href='?Idioma=es-MX' title='Español' class='idiEspanhol'>[Español] </a>-->
+            </div>
+            <div id="acessibilidade">
+              <ul class="nostyle">
+                <li><a href="javascript:void(0)" title="Aumentar fonte" class="mais"><span class="aumentar"></span></a></li>
+                <li><a href="javascript:void(0)" title="Diminuir fonte" class="menos"><span class="diminuir"></span></a></li>
+                <li><a href="javascript:void(0)" title="Visualizar versão sem contraste"><span class="contraste_in"></span></a></li>
+                <li><a href="javascript:void(0)" title="Visualizar versão com contraste" class="contraste_out"><span class="contraste_out"></span></a></li>
+              </ul>              
+            </div>
+            <div class="clear"></div>
+            <div id="info">
+                
+ 
+              <p id="onde-como"><a href="http://www.prosangue.sp.gov.br/doacao/Enderecos.html" title="ONDE E COMO DOAR"><span id="ondeecomo"></span>ONDE E COMO DOAR?</a></p>
+ <!--             <div class="pt-BR">
+                <p id="links-rodape">
+                  <a href="sic.html" title="Serviço de Informações ao Cidadão - SIC">Serviço de Informações ao Cidadão - SIC</a>
+                </p>
+              </div>  -->
+              <span id="contatotopo"></span><p id="alopro"><strong>ALÔ PRÓ-SANGUE</strong></p><p id="fone"><strong>(11) 4573-7800</strong></p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div id="menu">
+        <div class="centromenu">
+          <ul class="pt-BR">
+            
+                <li><a href="http://www.prosangue.sp.gov.br/artigos/institucional.html" title="A Pró-Sangue">A PRÓ-SANGUE</a></li>   
+              
+                <li class=" selecmenu"><a href="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html" title="Doação de sangue">DOAÇÃO DE SANGUE</a></li>
+              
+                <li><a href="http://www.prosangue.sp.gov.br/doacao/etapasdoacao.html" title="Etapas da doação">ETAPAS DA DOAÇÃO</a></li>
+              
+                <li><a href="http://www.prosangue.sp.gov.br/hemocentros/Default.html" title="Hemocentros do Brasil">HEMOCENTROS DO BRASIL</a></li>
+              
+                <li><a href="http://www.prosangue.sp.gov.br/artigos/coletas_externas.html" title="Coletas Externas">COLETAS EXTERNAS</a></li>
+              
+                <li><a href="http://www.prosangue.sp.gov.br/faleConosco/Default.html" title="Fale conosco">FALE CONOSCO</a></li>
+              
+				<li><a href="http://www.prosangue.sp.gov.br/licitacao/Default.html" title="Licitações">LICITAÇÕES</a></li>             
+          </ul>
+          <div id="pnPesquisar" class="fr" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;imbPesquisar&#39;)">
+	
+            <input name="ctl00$ctl00$txtPesquisar" type="text" id="txtPesquisar" class="pesquisar">
+            <span id="rfvPesquisar" style="display:none;"></span>
+            <input type="hidden" name="ctl00$ctl00$vcePesquisar_ClientState" id="vcePesquisar_ClientState">
+            <input type="image" name="ctl00$ctl00$imbPesquisar" id="imbPesquisar" title="Pesquisar" src="./Fundação Pró-Sangue_files/submit-pesquisar.png" alt="Pesquisar" onclick="$.Watermark.HideAll();return ValidaPesquisa();">
+
+          
+</div>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="centro">
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+
+        
+  
+  <div id="conteudo">
+    <input type="hidden" name="ctl00$ctl00$cphConteudo$cphConteudo$hfCodArtigo" id="cphConteudo_cphConteudo_hfCodArtigo">
+    <input type="hidden" name="ctl00$ctl00$cphConteudo$cphConteudo$smeArtigo$hfCodCliente" id="cphConteudo_cphConteudo_smeArtigo_hfCodCliente" value="5">
+<input type="hidden" name="ctl00$ctl00$cphConteudo$cphConteudo$smeArtigo$hfCodMenu" id="cphConteudo_cphConteudo_smeArtigo_hfCodMenu" value="2">
+<input type="hidden" name="ctl00$ctl00$cphConteudo$cphConteudo$smeArtigo$hfCodArea" id="cphConteudo_cphConteudo_smeArtigo_hfCodArea" value="1">
+
+    <div id="submenu">
+      <ul>
+        
+    <li><a href="http://www.prosangue.sp.gov.br/doacao/Agende.html" title="Agende sua doação de sangue"><strong>» Agende sua doação de sangue</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html" title="Requisitos básicos para doação"><strong>» Requisitos para doação</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/doacao/Enderecos.html" title="Endereço dos postos de coleta"><strong>» Endereço dos postos</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/cuidados_pos-doacao.html" title="Cuidados pós-doação"><strong>» Cuidados pós-doação</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/quem_nao_pode_doar.html" title="Quem não pode doar"><strong>» Quem não pode doar</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/duvidas/Default.html" title="Dúvidas"><strong>» Dúvidas</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/palestra.html" title="palestra"><strong>» Palestra sobre doação de sangue</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/atendimento_a_grupos.html" title="Atendimento a grupos?"><strong>» Atendimento a grupos</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/doacao_de_hemacias_duplas.html" title="Doação de hemácias duplas"><strong>» Doação de hemácias duplas</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/doacao_de_plaquetas.html" title="Doação de plaquetas"><strong>» Doação de plaquetas</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/na_duvida_nao_doe.html" title="Downloads"><strong>» Na dúvida, não doe</strong></a></li>
+  
+    <li><a href="http://www.prosangue.sp.gov.br/artigos/servico_van.html" title="Serviço de van"><strong>» Serviço de van</strong></a></li>
+  
+      </ul>
+      <div class="clear"></div>
+    </div>
+  
+
+<div class="icones">
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "../pt_BR/all.js#xfbml=1&appId=251062258282040";
+      fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+  </script>
+  <div class="fb-like" data-href="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+    <a onclick="javascript:window.print();" class="imprimir" href="javascript:__doPostBack(&#39;ctl00$ctl00$cphConteudo$cphConteudo$Icones2$ctl00&#39;,&#39;&#39;)">imprimir</a>
+</div>
+    
+    <h2>Requisitos básicos para doação de sangue<span></span></h2>
+    <p>Na triagem de doadores, a Fundação Pró-Sangue obedece a <u><a href="http://www.prosangue.sp.gov.br/uploads/legislacao/Portaria5.pdf" onclick="window.open(this.href, &#39;&#39;, &#39;resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no&#39;); return false;" target="_blank">normas nacionais</a></u> e internacionais. O alto rigor no cumprimento dessas normas visa oferecer segurança e proteção ao receptor e ao doador.</p><p>Abaixo estão listados os requisitos básicos e alguns dos principais impedimentos temporários e definitivos para doação de sangue. <strong>No entanto, esta lista não esgota os motivos de impedimentos para doação</strong>, de forma que outras informações prestadas por você durante a triagem clínica serão consideradas para definir se está apto para doar sangue nesse momento.<br><br><span class="bolinha">Bull</span>&nbsp;&nbsp;<strong>Requisitos básicos</strong></p><ul class="duvidas"><li><p class="nomargin">» Estar em boas condições de saúde.</p></li><li><p class="nomargin">» Ter entre 16 e 69&nbsp;anos, desde que a primeira doação tenha sido feita até 60 anos (menores de 18 anos, clique para ver <a href="http://www.prosangue.sp.gov.br/uploads/arquivos/19.08.29%20-%20Menor%20de%20idade%20-%20documentos%20necessarios%202019.pdf" onclick="window.open(this.href, &#39;&#39;, &#39;resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no&#39;); return false;" target="_blank" title="Documentos necessários">documentos necessários</a> e <a href="http://www.prosangue.sp.gov.br/uploads/arquivos/19.08.29%20-%20Menor%20de%20idade%20-%20termo%20de%20autorizacao%202019.pdf" onclick="window.open(this.href, &#39;&#39;, &#39;resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no&#39;); return false;" target="_blank">formulário de autorização</a>).</p></li><li><p class="nomargin">» Pesar no mínimo 50kg.</p></li><li><p class="nomargin">» Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas).</p></li><li><p class="nomargin">» Estar alimentado (evitar alimentação gordurosa nas 4 horas que antecedem a doação).</p></li><li><p>» Apresentar documento original com foto recente, que permita a identificação do candidato,&nbsp;emitido por órgão oficial (Carteira de Identidade, Cartão de Identidade de Profissional Liberal, Carteira de Trabalho e Previdência Social).</p></li></ul><p class="textobull"><span class="bolinha">Bull</span>&nbsp;<strong>Impedimentos temporários</strong></p><ul class="duvidas"><li><p class="nomargin">» Resfriado: aguardar 7 dias após desaparecimento dos sintomas.</p></li><li><p class="nomargin">» Gravidez</p></li><li><p class="nomargin">»&nbsp;90 dias após parto normal e 180 dias após cesariana.</p></li><li><p class="nomargin">» Amamentação (se o parto ocorreu há menos de 12 meses).</p></li><li><p class="nomargin">» Ingestão de bebida alcoólica nas 12 horas que antecedem a doação.</p></li><li><p class="nomargin">» Tatuagem / maquiagem definitiva nos últimos 12 meses.</p></li><li><p class="nomargin">» Situações nas quais há maior risco de adquirir doenças sexualmente transmissíveis: aguardar 12 meses.</p></li><li><p class="nomargin">»&nbsp;Qualquer <u>procedimento endoscópico</u>&nbsp;(endoscopia digestiva alta, colonoscopia, rinoscopia&nbsp;etc): aguardar 6&nbsp;meses.</p></li><li><p>»&nbsp;Extração dentária (verificar uso de medicação) ou&nbsp;tratamento de canal (verificar medicação):&nbsp;por 7 dias.<br>»&nbsp;Cirurgia odontológica com anestesia geral:&nbsp;por 4&nbsp;semanas.<br>»&nbsp;Acupuntura: se realizada com material descartável: 24 horas; se realizada com laser ou sementes: apto; se realizada com material sem condições de avaliação: aguardar 12 meses.<br>» Vacina contra gripe: por 48 horas.<br>» Herpes labial ou genital: apto após desaparecimento total das lesões.<br>» Herpes Zoster: apto após&nbsp;6 meses da cura (vírus Varicella Zoster).<br>»&nbsp;<u>Brasil</u>: estados como&nbsp;Acre, Amapá, Amazonas, Rondônia, Roraima, Maranhão, Mato Grosso, Pará e Tocantins são locais&nbsp;onde há alta prevalência de malária. Quem esteve nesses estados deve aguardar 12 meses para doar, após o retorno.<br>»&nbsp;<u>EUA</u>: quem esteve nesse país deve aguardar 30 dias para doar, após o retorno.<br>»&nbsp;<u>Europa</u>: quem morou na Europa após 1980, verificar aptidão para doação no (11) 4573-7800. <br>»&nbsp;<u>Malária</u>: quem esteve em países com alta prevalência de malária deve aguardar 12 meses após o retorno para doar. (critério semelhante ao dos estados brasileiros com prevalência elevada de malária).<br>»&nbsp;<u>Febre Amarela</u>: quem esteve em região onde há surto da doença deve aguardar 30 dias para doar, após o retorno; se tomou a vacina, deve aguardar 04 semanas; se contraiu a doença, deve aguardar 6 meses após recuperação completa (clínica e laboratorial). <!--Detalhes dos locais podem ser vistos no Portal da Sa&uacute;de (<a href="http://portalsaude.saude.gov.br/index.php/o-ministerio/principal/leia-mais-o-ministerio/619-secretaria-svs/11-svs/27300-febre-amarela-informacao-e-orientacao" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no'); return false;" target="_blank">clique aqui</a>).</p></li></ul>--></p><p class="textobull"><span class="bolinha">Bull</span>&nbsp;<strong>Impedimentos definitivos</strong></p><ul class="duvidas"><li><p class="nomargin">» Hepatite após os 11 anos de idade. *</p></li><li><p class="nomargin">» Evidência clínica ou laboratorial das seguintes doenças infecciosas transmissíveis pelo sangue: Hepatites B e C, AIDS (vírus HIV), doenças associadas aos vírus HTLV I e II e Doença de Chagas.</p></li><li><p class="nomargin">» Uso de drogas ilícitas injetáveis.</p></li><li><p>» Malária.</p></li><li><p>* Hepatite após o 11º aniversário: Recusa Definitiva; Hepatite B ou C após ou antes dos 10 anos: Recusa definitiva; Hepatite por Medicamento: apto após a cura e avaliado clinicamente;&nbsp;Hepatite viral (A): após os 11 anos de idade, se trouxer o exame do diagnóstico da doença, será avaliado pelo médico da triagem.</p></li></ul><p><strong><span style="color:#ff8c00;">Confira outros impedimentos à doação no link&nbsp;</span><u><a href="http://www.prosangue.sp.gov.br/artigos/quem_nao_pode_doar.html"><span style="color:#ff8c00;">"Quem não pode doar"</span></a></u><span style="color:#ff8c00;">.</span></strong></p><p class="textobull"><span class="bolinha">Bull</span>&nbsp;<strong>Respeitar os intervalos para doação</strong></p><ul class="duvidas"><li><p class="nomargin">» Homens - 60 dias (máximo de 04 doações nos últimos 12 meses).</p></li><li><p>» Mulheres - 90 dias (máximo de 03 doações nos últimos 12 meses).</p></li></ul><p><strong>Honestidade também salva vidas. Ao doar sangue, seja sincero na entrevista.</strong></p><p><strong>* A Pró-Sangue se preocupa com a segurança das crianças. Se alguma delas vier com você no dia da doação, traga um outro adulto para acompanhá-la.</strong></p><p>&nbsp;</p>
+    
+  </li></ul></div>
+
+  <div id="barralateral">
+    
+<!-- quando estiver na pagina ouvidoria, adicione a classe "menuselect" a tag do link ouvidoria para deixar selecionado -->
+ <input type="hidden" name="ctl00$ctl00$cphConteudo$MenuLateral1$hfCodCliente" id="cphConteudo_MenuLateral1_hfCodCliente" value="6">
+ <ul class="menulateral pt-BR">
+   
+      <li class="ouvidoria "><a href="http://www.prosangue.sp.gov.br/ouvidoria/ouvidoria.html" title="Ouvidoria"><span>Ouvidoria</span><strong>OUVIDORIA</strong></a></li>
+    
+      <li class="voluntarios "><a href="http://www.prosangue.sp.gov.br/artigos/corpo_de_voluntarios.html" title="Corpo de Voluntários"><span>Corpo de Voluntários</span><strong>CORPO DE VOLUNTÁRIOS</strong></a></li>
+    
+      <li class="politica "><a href="http://www.prosangue.sp.gov.br/artigos/politica_de_qualidade.html" title="Politica de Qualidade"><span>Politica de Qualidade</span><strong>POLITICA DE QUALIDADE</strong></a></li>
+    
+      <li class="colaborador "><a href="http://www.prosangue.sp.gov.br/artigos/historico.html" title="Centro Colaborador"><span>Centro Colaborador</span><strong>CENTRO COLABORADOR</strong></a></li>  
+    
+      <li class="acesso duaslinhas "><a href="http://www.prosangue.sp.gov.br/artigos/hospitais_abastecidos__acesso_restrito.html" title="Hospitais Abastecidos / Acesso Sistema CVS-4"><span>Hospitais Abastecidos / Acesso Sistema CVS-4</span><strong>HOSPITAIS ABASTECIDOS / ACESSO SISTEMA CVS-4</strong></a></li>
+	  
+	  <li> <a href="http://www.prosangue.sp.gov.br/uploads/pro_sangue/Requisitos.mp4" onclick="window.open(this.href, &#39;&#39;, &#39;resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no&#39;); return false;" title="Requisitos para Doação"> <img src="./Fundação Pró-Sangue_files/requisitos_doacao.png"></a></li>
+    
+<!--	<li> <a href='../uploads/pro_sangue/Requisitos.mp4' title='Requisitos para Doação'><strong>Requisitos para Doação</strong></a></li>  -->
+   
+ </ul>
+<!--    <h3 class="menu">Posição de estoque</h3>
+    <p class="atualizacaoestoque">Última atualização: 24/11/2017 09:07</p>
+    <div id="divestoque">
+      
+ classes do span: critico (bola vazia), emergencia (bola quase vazia), estavel (bola cheia) 
+<ul class="estoque">
+    
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_0" class="critico"></span><p><strong>O+</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_1" class="estavel"></span><p><strong>A+</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_2" class="estavel"></span><p><strong>AB+</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_3" class="critico"></span><p><strong>B+</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_4" class="critico"></span><p><strong>O-</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_5" class="critico"></span><p><strong>A-</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_6" class="estavel"></span><p><strong>AB-</strong></p></li>
+        
+            <li><span id="cphConteudo_Estoque1_Repeater1_lblO_7" class="critico"></span><p><strong>B-</strong></p></li>
+        
+</ul>
+  
+
+
+    </div>
+		<div id="legenda" style="margin: 10px;">
+			<sub>Legenda:</sub>
+      <table width="85%" style="text-align: center;">
+        <tr>
+          <td><span class="estavelleg"></span><br />Estável</td>
+          <td><span class="emergencialeg"></span><br />Alerta</td>
+          <td><span class="criticoleg"></span><br />Crítico</td>
+        </tr>
+      </table><br />
+    </div>
+		
+<div id="contador">
+  <h3 class="menucontador">Contador de bolsas</h3>
+  <div id="countbox">
+    <p class="pcontador">Desde sua criação,  <br/>
+a Pró-Sangue já coletou</p>
+    <div class="tcontadorcontainer">
+      <div class="fl">
+        <table class="tcontador">
+          <tr>
+            <td><span id="sp0">0</span></td>
+            <td><span id="sp1">0</span></td>
+            <td><span id="sp2">4</span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="fl">
+        <table class="tcontador">
+          <tr>
+            <td><span id="sp3">6</span></td>
+            <td><span id="sp4">8</span></td>
+            <td><span id="sp5">7</span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="fl">
+        <table class="tcontador nomargin">
+          <tr>
+            <td><span id="sp6">5</span></td>
+            <td><span id="sp7">8</span></td>
+            <td><span id="sp8">1</span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <p class="pcontadord">bolsas de sangue</p>
+    <input name="ctl00$ctl00$cphConteudo$Contador1$hfQtdBolsas" type="hidden" id="cphConteudo_Contador1_hfQtdBolsas" class="bolsas" value="345600" />
+  </div>
+  <script type="text/javascript">
+    function atualiza() {
+      var bolsas = new Array();
+      for (var i = 0; i < 9 ; i++) {
+        bolsas[i] = parseInt($("#sp" + i).html());
+      }
+      bolsas = somaBolsa(bolsas);
+
+      for (var i = 0; i < 9; i++) {
+        $("#sp" + i).html(bolsas[i]);
+      }
+
+      setTimeout('atualiza()', $('.bolsas').val());
+    }
+
+    function somaBolsa(n) {
+      var retorno = "";
+      var zeros = 0;
+      var check = false;
+      for (var i = 0; i < 9; i++) {
+        if (n[i] != 0 || check) {
+          retorno += n[i];
+          check = true;
+        }
+        else {
+          zeros++;
+        }
+      }
+      
+      retorno = parseInt(retorno) + 1;
+      var bolsas = new Array();
+      var texto = retorno.toString().split('');
+      var tamanho = 0;
+      tamanho = retorno.toString().length;
+      var aux = tamanho;
+      for (var i = 0; i < 9; i++) {
+        if (zeros != 0) {
+          bolsas[i] = 0;
+          zeros--;
+        }
+        else {
+          bolsas[i] = texto[aux - tamanho];
+          tamanho--;
+        }
+      }
+
+      return bolsas;
+    }
+     
+  </script>
+</div>
+-->
+  </div>
+  <div class="clear"></div>
+
+        <div id="links">
+          <div class="links fl">
+            <ul class="fl mr27">
+<li>
+<!--
+<a href='institucional.html' title='A Pró-Sangue'>
+&bull;&nbsp;A Pró-Sangue
+</a>
+<ul>
+<li>
+<a href='certificados.html' title='Certificados'>
+» Certificados
+</a>
+</li>
+<li>
+<a href='indicadores.html' title='Indicadores'>
+» Indicadores
+</a>
+</li>
+<li>
+<a href='institucional.html' title='Institucional'>
+» Institucional
+</a>
+</li>
+<li>
+<a href='pesquisa_cientifica.html' title='Pesquisa científica'>
+» Pesquisa científica
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='../agenda/Default.html' title='Agenda'>
+&bull;&nbsp;Agenda
+</a>
+</li>
+<li>
+<a href='../cadastreEmail/Default.html' title='Cadastre seu e-mail'>
+&bull;&nbsp;Cadastre seu e-mail
+</a>
+</li>
+<li>
+<a href='historico.html' title='Centro Colaborador'>
+&bull;&nbsp;Centro Colaborador
+</a>
+<ul>
+<li>
+<a href='historico.html' title='Histórico'>
+» Histórico
+</a>
+</li>
+<li>
+<a href='laboratorios_participantes.html' title='Laboratórios participantes'>
+» Laboratórios participantes
+</a>
+</li>
+<li>
+<a href='links.html' title='Links'>
+» Links
+</a>
+</li>
+<li>
+<a href='relatorios.html' title='Relatórios'>
+» Relatórios
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='../irmaosdesangue/home/Default.html' title='Clube Irmãos de Sangue'>
+&bull;&nbsp;Clube Irmãos de Sangue
+</a>
+</li>
+</ul>
+<ul class='fl mr19'>
+<li class='sub_ul'>
+</li>
+<li>
+<a href='coletas_externas.html' title='Coletas Externas'>
+&bull;&nbsp;Coletas Externas
+</a>
+</li>
+<li>
+<a href='../comunicacao/Default.html' title='Comunicação'>
+&bull;&nbsp;Comunicação
+</a>
+<ul>
+<li>
+<a href='../comunicacao/Default.html' title='Histórico de campanhas'>
+» Histórico de campanhas
+</a>
+</li>
+<li>
+<a href='parcerias.html' title='Parcerias'>
+» Parcerias
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='corpo_de_voluntarios.html' title='Corpo de Voluntários'>
+&bull;&nbsp;Corpo de Voluntários
+</a>
+</li>
+<li>
+<a href='requisitos_basicos_para_doacao.html' title='Doação de sangue'>
+&bull;&nbsp;Doação de Sangue
+</a>
+<ul>
+<li>
+<a href='../doacao/Agende.html' title='Agende sua doação de sangue'>
+» Agende sua doação de sangue
+</a>
+</li>
+<li>
+<a href='atendimento_a_grupos.html' title='Atendimento a grupos?'>
+» Atendimento a grupos
+</a>
+</li>
+<li>
+<a href='cuidados_pos-doacao.html' title='Cuidados pós-doação'>
+» Cuidados pós-doação
+</a>
+</li>
+<li>
+<a href='doacao_de_hemacias_duplas.html' title='Doação de hemácias duplas'>
+» Doação de hemácias duplas
+</a>
+</li>
+<li>
+<a href='doacao_de_plaquetas.html' title='Doação de plaquetas'>
+» Doação de plaquetas
+</a>
+</li>
+<li>
+<a href='../duvidas/Default.html' title='Dúvidas'>
+» Dúvidas
+</a>
+</li>
+<li>
+<a href='../doacao/Enderecos.html' title='Endereço dos postos de coleta'>
+» Endereço dos postos
+</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='fl mr12'>
+<li class='sub_ul'>
+<ul>
+<li class='sub_ul'>
+</li>
+<li>
+<a href='na%20d%c3%bavida%2c%20n%c3%a3o%20doe.html' title='Downloads'>
+» Na dúvida, não doe
+</a>
+</li>
+<li>
+<a href='palestra.html' title='palestra'>
+» Palestra sobre doação de sangue
+</a>
+</li>
+<li>
+<a href='quem_nao_pode_doar.html' title='Quem não pode doar'>
+» Quem não pode doar
+</a>
+</li>
+<li>
+<a href='requisitos_basicos_para_doacao.html' title='Requisitos básicos para doação'>
+» Requisitos para doação
+</a>
+</li>
+<li>
+<a href='servico_van.html' title='Serviço de van'>
+» Serviço de van
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='estudantes.html' title='Estudantes'>
+&bull;&nbsp;Estudantes
+</a>
+</li>
+<li>
+<a href='estrutura_organizacional.html' title='Estrutura Organizacional'>
+&bull;&nbsp;Estrutura Organizacional
+</a>
+<ul>
+<li>
+<a href='licitacao.html' title='Licitação'>
+» Licitação
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='../doacao/etapasdoacao.html' title='Etapas da doação'>
+&bull;&nbsp;Etapas da Doação
+</a>
+</li>
+<li>
+<a href='../faleConosco/Default.html' title='Fale conosco'>
+&bull;&nbsp;Fale Conosco
+</a>
+</li>
+<li>
+<a href='../hemocentros/Default.html' title='Hemocentros do Brasil'>
+&bull;&nbsp;Hemocentros do Brasil
+</a>
+</li>
+<li>
+<a href='hospitais_abastecidos__acesso_restrito.html' title='Hospitais Abastecidos / Acesso Restrito'>
+&bull;&nbsp;Hospitais Abastecidos / Acesso Restrito
+</a>
+</li>
+</ul>
+<ul class='fl'>
+<li class='sub_ul'>
+</li>
+<li>
+<a href='imprensa.html' title='Imprensa'>
+&bull;&nbsp;Imprensa
+</a>
+</li>
+<li>
+<a href='legislacao.html' title='Legislação'>
+&bull;&nbsp;Legislação
+</a>
+</li>
+<li>
+<a href='../noticias/Default.html' title='Notícias'>
+&bull;&nbsp;Notícias
+</a>
+</li>
+<li>
+<a href='../ouvidoria/default.html' title='Ouvidoria'>
+&bull;&nbsp;Ouvidoria
+</a>
+<ul>
+<li>
+<a href='apresentacao.html' title='Apresentação'>
+» Apresentação
+</a>
+</li>
+<li>
+<a href='relatorio.html' title='Relatório'>
+» Relatório
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='politica_de_qualidade.html' title='Politica de Qualidade'>
+&bull;&nbsp;Politica de Qualidade
+</a>
+</li>
+<li>
+<a href='publicacoes_oficiais.html' title='Publicações Oficiais'>
+&bull;&nbsp;Publicações Oficiais
+</a>
+</li>
+<li>
+<a href='responsabilidade_social.html' title='Responsabilidade Social'>
+&bull;&nbsp;Responsabilidade Social
+</a>
+</li>
+<li>
+<a href='sangue_seguro.html' title='Sangue Seguro'>
+&bull;&nbsp;Sangue Seguro
+</a>
+</li>
+<li>
+<a href='servicos.html' title='Serviços'>
+&bull;&nbsp;Serviços
+</a>
+-->
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+</li>
+</ul>
+
+            <div class="clear"></div>
+          </div>
+          <div id="encontre" class="fr">
+            <div id="encontrelinks">
+              <p>Encontre-nos na rede</p>
+              <span class="fl"><a href="http://www.youtube.com/user/Prosangue1" target="_blank" title="YOU TUBE"><img src="./Fundação Pró-Sangue_files/youtube(1).png" alt="YOU TUBE" title="YOU TUBE">YOU TUBE</a></span>
+              <span class="fl"><a href="http://pt-br.facebook.com/prosangue" target="_blank" title="FACEBOOK"><img src="./Fundação Pró-Sangue_files/facebook(1).png" alt="FACEBOOK" title="FACEBOOK">FACEBOOK</a></span>
+              <span class="fl"><a href="http://twitter.com/pro_sangue" target="_blank" title="TWITTER"><img src="./Fundação Pró-Sangue_files/twitter(1).png" alt="TWITTER" title="TWITTER">TWITTER</a></span>
+			  <span class="fl"><a href="https://www.instagram.com/prosangue/" target="_blank" title="INSTAGRAM"><img src="./Fundação Pró-Sangue_files/instagram.jpg" alt="INSTAGRAM" title="INSTAGRAM">INSTAGRAM</a></span>             </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="centromenu">
+        <p class="fr"><strong><a href="http://www.integra.sp.gov.br/" target="_blank" title="webmail">webmail</a></strong></p>
+        <p>FUNDAÇÃO PRÓ-SANGUE - Todos os direitos reservados</p>
+      </div>
+    </div>
+  
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("rfvPesquisar"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var rfvPesquisar = document.all ? document.all["rfvPesquisar"] : document.getElementById("rfvPesquisar");
+rfvPesquisar.controltovalidate = "txtPesquisar";
+rfvPesquisar.focusOnError = "t";
+rfvPesquisar.errormessage = "Digite um texto para pesquisa";
+rfvPesquisar.display = "None";
+rfvPesquisar.validationGroup = "Pesquisar";
+rfvPesquisar.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvPesquisar.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('rfvPesquisar').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('rfvPesquisar'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ValidatorCalloutBehavior, {"ClientStateFieldID":"vcePesquisar_ClientState","closeImageUrl":"/WebResource.axd?d=UAc0AKDsxLpm_op4Pe9bwdxqGxFB0eEk9z0YVUQCeEHtBQuqsPqRrtlcmUDlnWWaHHsDWJZNCf_zR0IEg7NUamsgQjijuFeQHawHYf8GNYXGVyKHMyNZci2qRp4xEZDNNhIQfb43Zbjbb8RpVlAlng2\u0026t=635028737980000000","id":"vcePesquisar","popupPosition":3,"warningIconImageUrl":"/WebResource.axd?d=VaAjcR2ToFRG_X3guINVI0uAx5BWkYv0g3SBpZ5R1a5Mljp3yUauwlmJIb9s7fIf39ir1VWpAPbXGjUqxtq0bAw8I-mnZKWqrS30FM1q5qre2Y_PL_nInZfjuDvKEbyJ86bseCK5ZzM70AYh0McTTQ2\u0026t=635028737980000000"}, null, null, $get("rfvPesquisar"));
+});
+//]]>
+</script>
+</form>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9755924-36']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+<!-- Mirrored from www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Nov 2017 10:51:39 GMT -->
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><style>.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}</style></body></html>

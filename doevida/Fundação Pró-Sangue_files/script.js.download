@@ -1,0 +1,13 @@
+var kebab = document.querySelector('.govsp-kebab'),
+    middle = document.querySelector('.govsp-middle'),
+    cross = document.querySelector('.govsp-cross'),
+    dropdown = document.querySelector('.govsp-dropdown');
+
+if(kebab){
+  kebab.addEventListener('click', function() {
+  middle.classList.toggle('govsp-active');
+  cross.classList.toggle('govsp-active');
+  dropdown.classList.toggle('govsp-active');
+  kebab.classList.toggle('govsp-active');
+})
+}

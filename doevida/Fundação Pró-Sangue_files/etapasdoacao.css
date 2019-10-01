@@ -1,0 +1,156 @@
+﻿        #etapasDoacao
+        {
+            width: 720px;
+            min-height: 200px;
+            margin: 0 auto;
+            display: table;
+            outline: none;
+            padding: 2px;
+            border: 1px solid #BBB;
+        }
+            #etapasDoacao li
+            {
+                list-style-type: none;
+            }
+
+
+            #etapasDoacao .menu
+            {
+            }
+                #etapasDoacao .menu .menuItens
+                {
+                    float: left;
+                    display: inline-block;
+                }
+                #etapasDoacao .menu .menuItens > li
+                {
+                    width: 70px;
+                    height: 54px;
+                    opacity: 0.4;
+                    color: #fff;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border-bottom: 1px solid #fff;
+                    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+                    filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+                    -webkit-filter:grayscale(1);
+                    
+                }
+                    #etapasDoacao .menu .menuItens li div
+                    {
+                        text-shadow: 0px 2px 4px #000;
+                        -webkit-text-shadow: 0px 2px 4px #000;
+                        font-weight: bold;
+                        padding-top: 30px;
+                        margin-left: 46px;
+                    }
+                    #etapasDoacao .menu .menuItens li.selected, #etapasDoacao .menu .menuItens li.selected:hover
+                    {
+                        display: block;
+                        filter:alpha(opacity=100);
+                        -moz-opacity: 1;
+                        opacity: 1;
+                        color: #fff;
+                        filter: none;
+                        -webkit-filter:grayscale(0);
+                    }
+
+                    #etapasDoacao .menu .menuItens li:hover
+                    {
+                        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 0.9 0\'/></filter></svg>#grayscale");
+                        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0.7);
+                        -moz-opacity:0.7;
+                        opacity: 0.7;
+                    }
+
+            #etapasDoacao .conteudo
+            {
+                display: inline-block;
+                width: 649px;
+                margin-left: 1px;
+            }
+                #etapasDoacao .nav
+                {
+                    position: relative;
+                    margin-left: 560px;
+                    margin-top: -145px !important; /* FIXA O NAV */
+                }
+                    #etapasDoacao .nav div
+                    {
+                        width: 41px;
+                        height: 42px;
+                        display: inline-block;
+                        background: url("../layout/btns-nav.png") no-repeat -2px 0px;
+                        cursor: pointer;
+                        margin-top: -42px;
+                    }
+                    #etapasDoacao .nav .nav-left
+                    {
+                        background-position: -2px 0px;
+                    }
+                    #etapasDoacao .nav .nav-left:hover
+                    {
+                        background-position: -47px 0px;
+                    }
+                    #etapasDoacao .nav .nav-left.inactive
+                    {
+                        cursor: default;
+                        background-position: -92px 0px;
+                    }
+                    #etapasDoacao .nav .nav-right
+                    {
+                        background-position: -2px -52px;
+                    }
+                    #etapasDoacao .nav .nav-right:hover
+                    {
+                        background-position: -47px -52px;
+                    }
+                    #etapasDoacao .nav .nav-right.inactive
+                    {
+                        cursor: default;
+                        background-position: -92px -52px;
+                    }
+
+                #etapasDoacao .conteudo .conteudoItens
+                {
+                }
+                #etapasDoacao .conteudo .conteudoItens > li
+                {
+                    display: none;
+                }
+                    #etapasDoacao .conteudo .conteudoItens > li.selected
+                    {
+                        display: block;
+                    }
+                    #etapasDoacao .conteudo .conteudoItens > li.selected .content
+                    {
+                        background-color: rgba(0,8,60,0.8);
+                        background-color: rgb(0,8,60);
+                        opacity: 0.9;
+                        -moz-opacity: 0.9;
+                        filter:alpha(opacity=90);
+                        color: #fff;
+                        padding: 10px;
+                        margin: -88px 10px 7px 10px;
+                        width: 610px;
+                        height: 100px;           /* FIXA A ALTURA DO BOX */
+                    }
+                        #etapasDoacao .conteudo .conteudoItens > li.selected .content img
+                        {
+                        }
+
+                        #etapasDoacao .conteudo .conteudoItens > li.selected .content .title
+                        {
+                            font-weight: bold;
+                            font-size: 18px;
+                            margin-top: 0;
+                            margin-bottom: 10px;
+                        }
+                        #etapasDoacao .conteudo .conteudoItens > li.selected .content .text p,
+                        #etapasDoacao .conteudo .conteudoItens > li.selected .content .text li
+                        {
+                            margin: 0;
+                            padding: 0;
+                            width: 100%;
+                            font-size: 11px;
+                        }

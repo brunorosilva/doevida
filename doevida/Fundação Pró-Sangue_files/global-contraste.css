@@ -1,0 +1,514 @@
+﻿.contraste a, 
+.contraste p, 
+.contraste span, 
+.contraste h1, 
+.contraste h2, 
+.contraste h3, 
+.contraste h4, 
+.contraste h5, 
+.contraste h6,
+.contraste ul li,
+.contraste .umaimg,
+.contraste #secundario #duvidas strong,
+.contraste #divestoquehome ul.estoque li p,
+.contraste label,
+.contraste #content #links ul li ul li a:hover,
+.contraste #divestoque ul.estoque li p strong,
+.contraste #curiosidades,
+.contraste .nomarginresp,
+.contraste #links #encontre a:hover,
+.contraste #quemdoa table
+{
+   color: #ffffff !important;
+}
+.contraste a:hover {
+  color: #66FFFF !important;
+  text-decoration: underline !important;
+}
+.contraste #lateral a:hover span.texcalcule,
+.contraste #lateral a:hover span.texquem,
+.contraste #lateral a:hover span.texcon,
+.contraste #lateral a:hover span.texestuda
+{
+  color: #66FFFF !important;
+}
+.contraste  #pai ul.filho li a:hover span.desc {
+  color: #66FFFF !important;
+}
+.contraste #header #topo {
+  background-color: #000000 !important;
+}
+.contraste #header #topo h1 a {
+    background: url("../layout/prosangue-logo-contraste.png") no-repeat scroll left top transparent !important;
+}
+.contraste #header #topo .centro {
+  background-color: #000000;
+  background-image: none !important;
+  border-bottom: 1px solid #FFFFFF !important;
+}
+.contraste #header #topo #acessibilidade {
+    border-right: 1px solid #FFFFFF !important;
+}
+.contraste #header #topo h1 a span {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+.contraste #header #topo h1 a:hover 
+{
+  background: url(../layout/prosangue-logo.png) 184px 0px no-repeat !important;
+  text-decoration: none !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.aumentar {
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -4px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.diminuir
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -36px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.contraste_in
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -69px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.contraste_out
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -101px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.aumentar:hover {
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -148px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.diminuir:hover
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -181px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.contraste_in:hover
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -214px transparent !important;
+}
+.contraste #header #topo #acessibilidade ul li a span.contraste_out:hover
+{
+  background: url("../layout/icons-acessibilidade-constraste.png") no-repeat scroll 0 -247px transparent !important;
+}
+.contraste #chatonline {
+    background-image: url("../layout/novoicone_chat_contraste.png") !important;
+    background-position: 0 0 !important;
+    height: 31px !important;
+    margin-top: 9px;
+    width: 41px !important;
+}
+.contraste span.conheca {
+    background-image: url("../layout/icon-sistemasang-contraste.png") !important;
+    background-position: 0 0 !important;
+    margin-top: -6px !important; 
+}
+.contraste #onde-como a:hover {
+  text-decoration: none !important;
+  border: 1px solid #66ffff !important;
+}
+.contraste #onchat a:hover {
+  text-decoration: none !important;
+  border: 1px solid #66ffff !important;
+}
+.contraste #content {
+  background: none !important;
+  background-color: #000000 !important;
+}
+.contraste .centromenu {
+  border-bottom: 0 none !important;
+}
+.contraste #principal #caixa_banner {
+  background-color: #000000 !important;
+  border-right: 1px solid #FFFFFF !important;
+}
+.contraste #header #menu
+{
+  background: none !important;
+  background-color: #000000 !important;
+}
+.contraste #header #menu ul
+{
+  border-bottom: 1px solid #FFFFFF !important;
+  border-right: 1px solid #FFFFFF !important;
+  height: 36px !important;
+  width: 771px !important;
+}
+.contraste #header #menu ul li
+{
+  height: 36px !important;
+  background-image: none !important;
+  background-color: #000000;
+  filter: filter: progid:DXImageTransForm.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000') !important;
+}
+.contraste #header #menu ul li:hover a
+{
+  background-image: none !important;
+}
+.contraste #header #menu ul li a:hover
+{
+  background-image: none !important;
+}
+.contraste #menu ul li.selecmenu a:hover
+{
+    background-color: #DE0000 !important;
+    text-decoration: none !important;
+}
+.contraste #header #menu #pnPesquisar {
+  padding: 7px 16px 0 0 !important;
+  margin: -37px 0 0;
+}
+.contraste #header #menu #pnPesquisar input[type="text"] {
+  background-color: #000000 !important;
+  border-color: #FFFFFF -moz-use-text-color #FFFFFF #FFFFFF !important;
+  border-style: solid none solid solid !important;
+  border-width: 1px 0 1px 1px !important;
+  border-color: #FFFFFF -moz-use-text-color #FFFFFF #FFFFFF !important;
+  border-style: solid none solid solid !important;
+  border-width: 1px 0 1px 1px !important;
+  padding: 3px 0 3px 4px !important;
+  width: 151px !important;
+  background: none !important;
+  color: #ffffff !important;
+}
+.contraste #header #menu #pnPesquisar input[type="image"]
+{
+  border: 1px solid #ffffff !important;
+  border-left: 0 none !important;
+  padding: 2px 6px 2px 3px !important;
+  background: none !important;
+}
+.contraste #header #menu {
+  background: none !important;
+  border-bottom: 0 none !important;
+  border-top: 0 none !important;
+  background-color: #000000 !important;
+}
+.contraste #header #menu ul li {
+  border-right: 0 none !important;
+  border-left: 0 none !important;
+}
+.contraste #header #menu ul li a 
+{
+  min-width: 88px;
+}
+.contraste #header #menu ul.en-US li a
+{
+  min-width: 79px;
+}
+.contraste #header #menu ul.es-MX li a
+{
+  min-width: 82px;
+}
+.contraste #menu ul >li a:hover
+{
+  box-shadow: 0 0 0 0 transparent !important;
+  -moz-box-shadow: 0 0 0 0 transparent !important;
+  -webkit-box-shadow: 0 0 0 0 transparent !important;
+  background-color: transparent !important; 
+  outline:0 !important;/* prevent webkit highlight on 
+
+focus */
+  -webkit-transition: all 0.0s ease-in-out !important;
+  -moz-transition: all 0.0s ease-in-out !important;
+  -ms-transition: all 0.0s ease-in-out !important;
+  -o-transition: all 0.0s ease-in-out !important;
+  transition: all 0.0s ease-in-out !important;
+}
+.contraste ul.menulateral {
+  background-color: #000000 !important;
+  background-image: none !important;
+  border-top: 1px solid #FFFFFF !important;
+  margin: -1px 0 0 0;
+  filter: progid:DXImageTransForm.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000') !important;
+}
+.contraste ul.menulateral li a {
+  border-bottom: 1px solid #000000 !important;
+}
+.contraste ul.menulateral li a:hover
+{
+  background-image: none !important;
+}
+.contraste ul.menulateral li a
+{
+  border-bottom:1px solid #ffffff !important;
+  outline:0;/* prevent webkit highlight on focus */
+  -webkit-transition: all 0.0s ease-in-out !important;
+  -moz-transition: all 0.0s ease-in-out !important;
+  -ms-transition: all 0.0s ease-in-out !important;
+  -o-transition: all 0.0s ease-in-out !important;
+  transition: all 0.0s ease-in-out !important;
+}
+.contraste ul.menulateral li:hover a strong, 
+.contraste ul.menulateral li.duaslinhas:hover a strong
+{
+  outline:0;/* prevent webkit highlight on focus */
+  -webkit-transition: all 0.0s ease-in-out !important;
+  -moz-transition: all 0.0s ease-in-out !important;
+  -ms-transition: all 0.0s ease-in-out !important;
+  -o-transition: all 0.0s ease-in-out !important;
+  transition: all 0.0s ease-in-out !important;
+  box-shadow: 0 0 0 0 transparent !important;
+  -moz-box-shadow: 0 0 0 0 transparent !important;
+  -webkit-box-shadow: 0 0 0 0 transparent !important;
+  background-color: transparent !important;
+  color: #66ffff !important;
+}
+.contraste ul.menulateral li.ouvidoria a span
+{
+  background-position: -44px 2px !important;
+}
+.contraste ul.menulateral li.voluntarios a span
+{
+  background-position: -43px -32px !important;
+}
+.contraste ul.menulateral li.politica a span
+{
+  background-position: -43px -66px !important;
+}
+.contraste ul.menulateral li.colaborador a span
+{
+  background-position: -43px -102px !important;
+}
+.contraste ul.menulateral li.acesso a span
+{
+  background-position: -43px -135px !important;
+}
+.contraste span.irmaos a {
+  border: 10px solid #000000 !important;
+}
+.contraste #secundario #duvidas {
+  background: none !important;
+  border-bottom: 1px solid #FFFFFF !important;
+  background-color: #000000 !important;
+}
+.contraste #duvidas .duvpos ul li a:hover
+{
+  background-color: transparent !important;
+}
+.contraste #secundario #duvidas #ver_todos a:hover
+{
+  background-color: transparent !important;
+}
+.contraste #secundario #noticias .caixa p.noticiasp a:hover
+{
+  background-color: transparent !important;
+}
+.contraste #secundarioleft {
+  background-color: #000000 !important;
+}
+.contraste #lateral {
+  background-color: #000000 !important;
+  border-left: 1px solid #FFFFFF !important;
+}
+.contraste #secundario #posicao_estoque .caixa {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #FFFFFF !important;
+  border-top: 0 none !important;
+  border-right: 0 none !important;
+  border-left: 0 none !important;
+}
+.contraste #secundario #posicao_estoque #legenda {
+  border-top: 1px solid #FFFFFF !important;
+}
+.contraste #countbox {
+  background-color: #000000 !important;
+  border: 1px solid #FFFFFF !important;
+}
+.contraste #contador {
+  border-bottom: 1px solid #FFFFFF !important;
+}
+.contraste #line {
+  background-color: #FFFFFF !important;
+}
+.contraste span.duvidaimg {
+    background-image: url("../layout/duvida_contraste.png") !important;
+    background-repeat: no-repeat;    
+    height: 24px;
+    width: 15px;
+}
+.contraste #anterior.setaduvida {
+  background-image: url("../layout/seta-duvida-contraste.png") !important;
+}
+.contraste #proxima.setaduvida {
+  background-image: url("../layout/seta-duvida-contraste.png") !important;
+}
+.contraste #secundario #noticias .caixa {
+  border: 0 none !important;
+  background-color: #000000 !important;
+}
+.contraste #secundario #noticias .nav {
+  border: 1px solid #FFFFFF !important;
+}
+.contraste #secundario #noticias .nav a {
+  background-color: #DE0000 !important;
+}
+.contraste #secundario #noticias .nav a:hover {
+  background-color: #66ffff !important;
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+.contraste #imprensa:hover {
+  background-color: transparent !important;
+}
+.contraste #imprensa:hover h2 a,
+.contraste  #imprensa:hover p a
+{
+  color: #66ffff !important;
+}
+.contraste #imprensa {
+  background-image: none !important;
+  border: 0 none !important;
+}
+.contraste #cadastre-email fieldset {
+  background-color: transparent !important;
+}
+.contraste #cadastre-email {
+  border: 1px solid #ffffff !important;
+}
+.contraste #cadastre-email input[type="text"] {
+  background-color: #000000 !important;
+  border-color: #FFFFFF !important;
+  border-radius: 0 0 0 0 !important;
+  box-shadow: 0 0 0 #000000 !important;
+}
+.contraste #cadastre-email input[type="submit"]:hover
+{
+  background-color:#66ffff !important;
+  background-image: none !important;
+  color:#000000 !important;
+}
+.contraste select {
+  background-color: #000000 !important;
+  border-color: #FFFFFF !important;
+  border-radius: 0 0 0 0 !important;
+  box-shadow: 0 0 0 #000000 !important;
+  color: #FFFFFF !important;
+}
+.contraste input[type="text"]{
+  color: #66FFFF !important;
+}
+.contraste #secundario {
+  background-color: #000000 !important;
+}
+.contraste #content #links {
+  background-color: #000000 !important;
+  border-top: 1px solid #FFFFFF !important;
+}
+.contraste #conteudo {
+    background-color: #000000 !important;
+    border-right: 1px solid #FFFFFF !important;
+}
+.contraste #barralateral {
+    background-color: #000000 !important;
+}
+.contraste .centro {
+    background-color: #000000 !important;
+}
+.contraste #formulario {
+    background-color: #000000 !important;
+}
+.contraste input[type="text"]
+{
+  background-color: #000000 !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 0 !important;
+}
+.contraste #form textarea {
+    background-color: #000000 !important;
+    border-color: #FFFFFF !important;
+    border-radius: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 transparent !important;
+    color: #66FFFF !important; 
+}
+.contraste #visivel {
+  background-color: #000000 !important;
+}
+.contraste #graybox {
+  background-color: #F60000 !important;
+}
+.contraste #footer {
+  background: none !important;
+  background-color: #000000 !important;
+  border-top: 1px solid #FFFFFF !important;
+}
+.contraste #footer .centromenu
+{
+  border-right: 0 none !important;
+  border-left: 0 none !important;
+}
+.contraste #pesquisa 
+{
+  border-top: 1px solid #FFFFFF !important;
+}
+.contraste #pesquisa li {
+  border-bottom: 1px solid #FFFFFF !important;
+}
+#fale span.chaton {
+  background-image: url("../layout/icon-chaton-contraste.png");
+}
+.contraste #eventos 
+{
+  border-top: 1px solid #FFFFFF !important;
+}
+.contraste #secundario #noticias .caixa h2 a:hover {
+  background-color: transparent !important;
+}
+.contraste span.spanright:hover
+{
+  background-color: #66ffff !important;
+  color: #000000 !important;  
+}
+.contraste #agenda ul li h3 {
+    background-color: #000000;
+}
+.contraste #etapas_doacao .menu
+{
+  background-color: #000000 !important;
+  background-image: none !important;
+  filter: false !important;
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.contraste #etapas_doacao .menu ul li.selected a:hover
+{
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+.contraste #etapas_doacao .menu ul li.selected:hover
+{
+  /* Old browsers */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  background-position: 0% 0%;
+  border: 1px solid #bb0500 !important;
+filter: linear-gradient(to bottom,  #fa1700 0%,#d00200 100%) !important !important; /* IE6-9 */
+  background-color: #fa1700 !important;
+  background-repeat: repeat !important;
+  background-attachment: scroll !important;
+}
+.contraste #etapas_doacao .menu ul li:hover
+{
+  background-color: transparent !important;
+  background-image: none !important;
+  filter: false !important;
+  border: 1px solid transparent !important;
+}
+.contraste #etapas_doacao .menu ul li:hover .seta
+{
+  display: none !important;
+}
+.contraste #etapas_doacao .menu ul li.selected:hover .seta
+{
+  display: block !important;
+}
+.contraste  #links-rodape a 
+{
+  background: url("../layout/icone_sic.png") no-repeat scroll center center #FFFFFF;
+  margin: -9px -34px 0 6px;
+}
+.contraste .en-US #links-rodape a
+{
+  margin: -12px -42px 0 4px !important;
+}
+.contraste .es-MX #links-rodape a
+{
+  margin: -9px -39px 0 6px;
+}

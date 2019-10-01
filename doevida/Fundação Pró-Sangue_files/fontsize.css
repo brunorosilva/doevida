@@ -1,0 +1,246 @@
+﻿ /*style para aumento e diminuição de fonte*/   
+    .tam1 .menulateral li a,
+    .tam1 #duvidas li a,
+    .tam1 #duvidas strong,
+    .tam1 #ver_todos a,
+    .tam1 #secundario #posicao_estoque #legenda .item,
+    .tam1 #secundario #posicao_estoque .caixa h2,
+    .tam1 #secundario #noticias .caixa h2.noticiash a,
+    .tam1 #secundario #noticias .caixa p span,
+    .tam1 h3.menucontador,
+    .tam1 #cadastre-email fieldset h2,
+    .tam1 #texto-cadastro,
+    .tam1 #content #links #encontre p,
+    .tam1 #footer p,
+    .tam1 #estudantes h3,
+    .tam1 #agenda h2,
+    .tam1 p.pcontador,
+    .tam1 p.pcontadord,
+    .tam1 #secundario #noticias .nav a ,
+    .tam1 #lateral span.texcalcule,
+    .tam1 #lateral span.texquem,
+    .tam1 #lateral span.texcon,
+    .tam1 #agenda p.vertoda,
+    .tam1 #imprensa p a,
+    .tam1 #lateral span.texestuda,
+    .tam1 #secundario #noticias ul li,
+    .tam1 p.atualizacaoestoque,
+    .tam1 h3.menu,
+    .tam1 ul.menulateral li.duaslinhas a strong,
+    .tam1 #secundario #posicao_estoque .caixa p,
+    .tam1 #links .links ul,
+    .tam1 #etapas_doacao .menu ul li a,
+    .tam1 #etapas_doacao > ul li .conteudo h4,
+    .tam1 #etapas_doacao > ul li .conteudo p
+    {
+      font-size: 9px !important;
+    }
+    .tam2 .menulateral li a,
+    .tam2 #duvidas li a,
+    .tam2 #ver_todos a,
+    .tam2 #duvidas strong, 
+    .tam2 #secundario #posicao_estoque #legenda .item,
+    .tam2 #secundario #posicao_estoque .caixa h2,
+    .tam2 #secundario #noticias .caixa h2.noticiash a,
+    .tam2 h3.menucontador,
+    .tam2 #cadastre-email fieldset h2,
+    .tam2 #texto-cadastro,
+    .tam2 #content #links #encontre p,
+    .tam2 #footer p,
+    .tam2 #estudantes h3,
+    .tam2 #agenda h2,
+    .tam2 #secundario #noticias .caixa p span,
+    .tam2 p.pcontador,
+    .tam2 p.pcontadord,
+    .tam2 #secundario #noticias .nav a,
+    .tam2 #lateral span.texcalcule,
+    .tam2 #lateral span.texquem,
+    .tam2 #lateral span.texcon,
+    .tam2 #agenda p.vertoda,
+    .tam2 #imprensa p a,
+    .tam2 #lateral span.texestuda,
+    .tam2 #secundario #noticias ul li,
+    .tam2 p.atualizacaoestoque,
+    .tam2 h3.menu,
+    .tam2 ul.menulateral li.duaslinhas a strong,
+    .tam2 #secundario #posicao_estoque .caixa p,
+    .tam2 #links .links ul,
+    .tam2 #etapas_doacao .menu ul li a,
+    .tam2 #etapas_doacao > ul li .conteudo h4,
+    .tam2 #etapas_doacao > ul li .conteudo p
+    {
+      font-size: 10px !important;
+    }
+    .tam3 .menulateral li a,
+    .tam3 #duvidas li a,
+    .tam3 #duvidas strong,
+    .tam3 #secundario #posicao_estoque #legenda .item,
+    .tam3 #secundario #posicao_estoque .caixa h2,
+    .tam3 #secundario #noticias .caixa h2.noticiash a,
+    .tam3 h3.menucontador,
+    .tam3 #cadastre-email fieldset h2,
+    .tam3 #texto-cadastro,
+    .tam3 #content #links #encontre p,
+    .tam3 #footer p,
+    .tam3 #estudantes h3,
+    .tam3 #agenda h2,
+    .tam3 #secundario #noticias .caixa p span,
+    .tam3 p.pcontador,
+    .tam3 p.pcontadord,
+    .tam3 #secundario #noticias .nav a,
+    .tam3 #lateral span.texcalcule,
+    .tam3 #lateral span.texquem,
+    .tam3 #lateral span.texcon,
+    .tam3 #agenda p.vertoda,
+    .tam3 #imprensa p a,
+    .tam3 #lateral span.texestuda,
+    .tam3 #secundario #noticias ul li,
+    .tam3 p.atualizacaoestoque,
+    .tam3 h3.menu,
+    .tam3 ul.menulateral li.duaslinhas a strong,
+    .tam3 #secundario #posicao_estoque .caixa p,
+    .tam3 #links .links ul,
+    .tam3 #etapas_doacao .menu ul li a,
+    .tam3 #etapas_doacao > ul li .conteudo h4,
+    .tam3 #etapas_doacao > ul li .conteudo p
+    { 
+      font-size: 12px !important;
+    }
+    .tam5 #duvidas li a,
+    .tam5 #duvidas strong,
+    .tam5 #secundario #posicao_estoque #legenda .item,
+    .tam5 #secundario #posicao_estoque .caixa h2,
+    .tam5 #secundario #noticias .caixa h2.noticiash a,
+    .tam5 h3.menucontador,
+    .tam5 #cadastre-email fieldset h2,
+    .tam5 #texto-cadastro,
+    .tam5 #content #links #encontre p,
+    .tam5 #footer p,
+    .tam5 #estudantes h3,
+    .tam5 #agenda h2,
+    .tam5 #secundario #noticias .caixa p span,
+    .tam5 p.pcontador,
+    .tam5 p.pcontadord,
+    .tam5 #imprensa p a,
+    .tam5 #secundario #noticias ul li,
+    .tam5 p.atualizacaoestoque,
+    .tam5 h3.menu,
+    .tam5 #secundario #posicao_estoque .caixa p,
+    .tam5 #links .links ul,
+    .tam5 #etapas_doacao .menu ul li a,
+    .tam5 #etapas_doacao > ul li .conteudo h4,
+    .tam5 #etapas_doacao > ul li .conteudo p
+    { 
+      font-size: 14px !important;
+    }
+    .tam6 #duvidas li a,
+    .tam6 #secundario #posicao_estoque .caixa h2,
+    .tam6 #secundario #noticias .caixa h2.noticiash a,
+    .tam6 h3.menucontador,
+    .tam6 #cadastre-email fieldset h2,
+    .tam6 #texto-cadastro,
+    .tam6 #content #links #encontre p,
+    .tam6 #footer p,
+    .tam6 #estudantes h3,
+    .tam6 #agenda h2,
+    .tam6 #secundario #noticias .caixa p span,
+    .tam6 p.pcontador,
+    .tam6 p.pcontadord,
+    .tam6 #secundario #noticias ul li,
+    .tam6 p.atualizacaoestoque,
+    .tam6 h3.menu,
+    .tam6 #secundario #posicao_estoque .caixa p,
+    .tam6 #etapas_doacao .menu ul li a,
+    .tam6 #etapas_doacao > ul li .conteudo h4,
+    .tam6 #etapas_doacao > ul li .conteudo p
+    { 
+      font-size: 15px !important;
+    }
+    .tam7 #duvidas li a,
+    .tam7 #secundario #posicao_estoque .caixa h2,
+    .tam7 #secundario #noticias .caixa h2.noticiash a,
+    .tam7 h3.menucontador,
+    .tam7 #cadastre-email fieldset h2,
+    .tam7 #texto-cadastro,
+    .tam7 #content #links #encontre p,
+    .tam7 #footer p,
+    .tam7 #estudantes h3,
+    .tam7 #agenda h2,
+    .tam7 #secundario #noticias .caixa p span,
+    .tam7 p.pcontador,
+    .tam7 p.pcontadord,
+    .tam7 p.atualizacaoestoque,
+    .tam7 h3.menu,
+    .tam7 #secundario #posicao_estoque .caixa p,
+    .tam7 #etapas_doacao .menu ul li a,
+    .tam7 #etapas_doacao > ul li .conteudo h4,
+    .tam7 #etapas_doacao > ul li .conteudo p
+    { 
+      font-size: 16px !important;
+    }
+    
+  /*Elementos que podem ir somente até tamanho 3*/
+  .tam5 #secundario #noticias .nav a,
+  .tam5 #lateral span.texcalcule,
+  .tam5 #lateral span.texquem,
+  .tam5 #lateral span.texcon,
+  .tam5 #agenda p.vertoda,
+  .tam5 #lateral span.texestuda
+  {
+    font-size: 12px !important;
+  }
+  .tam6 #secundario #noticias .nav a,
+  .tam6 #lateral span.texcalcule,
+  .tam6 #lateral span.texquem,
+  .tam6 #lateral span.texcon,
+  .tam6 #agenda p.vertoda,
+  .tam6 #lateral span.texestuda
+  {
+    font-size: 12px !important;
+  } 
+  .tam7 #secundario #noticias .nav a,
+  .tam7 #lateral span.texcalcule,
+  .tam7 #lateral span.texquem,
+  .tam7 #lateral span.texcon,
+  .tam7 #agenda p.vertoda,
+  .tam7 #lateral span.texestuda
+  {
+    font-size: 12px !important;
+  }
+  /*Elementos que podem ir somente até tamanho 5*/
+  .tam6 #imprensa p a,
+  .tam6 #links .links ul,
+  .tam7 #imprensa p a,
+  .tam7 #links .links ul
+  { 
+    font-size: 14px !important;
+  }
+  /*Elementos que podem ir somente até tamanho 6*/
+  .tam7 #secundario #noticias ul li,
+  .tam7 #secundario #noticias ul li
+  { 
+    font-size: 15px !important;
+  }
+  .tam1 #conteudo p, .tam1 #conteudo li { font-size: 9px !important;}
+  .tam2 #conteudo p, .tam2 #conteudo li { font-size: 10px !important;}
+  .tam3 #conteudo p, .tam3 #conteudo li { font-size: 11px !important;}
+  .tam4 #conteudo p, .tam4 #conteudo li {} /* tamanho padrão */
+  .tam5 #conteudo p, .tam5 #conteudo li { font-size: 14px !important;}
+  .tam6 #conteudo p, .tam6 #conteudo li { font-size: 15px !important;}
+  .tam7 #conteudo p, .tam7 #conteudo li { font-size: 16px !important;}  
+  
+  .tam1 #conteudo #formulario p,
+  .tam2 #conteudo #formulario p,
+  .tam3 #conteudo #formulario p,
+  .tam5 #conteudo #formulario p,
+  .tam6 #conteudo #formulario p,
+  .tam7 #conteudo #formulario p,
+  .tam1 #conteudo #form p,
+  .tam2 #conteudo #form p,
+  .tam3 #conteudo #form p,
+  .tam5 #conteudo #form p,
+  .tam6 #conteudo #form p,
+  .tam7 #conteudo #form p
+  {
+    font-size: 11px !important;
+  }
