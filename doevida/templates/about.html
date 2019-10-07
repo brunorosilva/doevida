@@ -14,17 +14,10 @@
 
 <p>Eu posso ajudar?</p>
 <br>
-<ul style="list-style-type:circle;">
-    <li>
-        Requisitos Mínimos
-    </li>
-    
-    <li>
-        Impedimentos Temporários
-    </li>
-    <li>
-        Impedimentos Definitivos
-    </li>
+<ul id="requisitos">
+    <li><button class = "btn min"onclick="myFunction()">Requisitos Mínimos </button></li>
+    <li>Impedimentos Temporários</li>
+    <li>Impedimentos Definitivos</li>
 </ul>
         
 </div>
@@ -37,6 +30,17 @@
     Feito por Bruno Rodrigues
 </div>
 
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
 
 
 </body>

@@ -25,4 +25,25 @@ html{
 
 }
   
-  
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 0px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.min {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

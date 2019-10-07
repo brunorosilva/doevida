@@ -13,6 +13,12 @@ def home():
 def about():
 
     return render_template('about.html')
+    
+@app.route('/teste_usuario')
+
+def teste():
+
+    return render_template('teste_usuario.html')
 
 if __name__ == '__main__':
 

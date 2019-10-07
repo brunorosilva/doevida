@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" href="{{ url_for('static', filename='css/heart2.css') }}">
+<link href="{{ url_for('static', filename='css/heart2.css') }}" rel="stylesheet">
 
 <html>
 
@@ -20,7 +20,8 @@
 
 
 <a href="http://127.0.0.1:5000/about">
-<div id="heart"></div>
+<div id="heart" onmouseover="document.body.style.backgroundColor='#333333';" onmouseout="document.body.style.backgroundColor='black';">
+</div>
 </a>
 
 
