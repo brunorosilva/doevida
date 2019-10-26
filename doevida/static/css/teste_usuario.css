@@ -19,4 +19,5 @@ html{
 .listas{
   font-size: 10px;
   margin-left: 30px;
+  display: none;
 }
