@@ -12,11 +12,12 @@
 
 
 <body>
-    <center><h2>Eu posso doar?</h2></center>
+    <center><h2>Eu posso doar?</h2><br><br><h4>Clique aqui para fazer o teste completo</h4></center>
+
     <ul class="w3-ul w3-hoverable">
       <li onclick="hide_list('def')">Requisitos Básicos</li>
       <div class = 'listas' id = 'def'>
-          Estar em boas condições de saúde
+          » Estar em boas condições de saúde
           <br>
           » Ter entre 16 e 69 anos
           <br>
@@ -30,7 +31,7 @@
           <br>
       </div>
       
-      <li onclick="hide_list('temp')">Impedimentos Temp</li>
+      <li onclick="hide_list('temp')">Impedimentos Temporários</li>
       <div class = 'listas' id = 'temp'>
           
 » Resfriado: aguardar 7 dias após desaparecimento dos sintomas.<br>
@@ -63,6 +64,15 @@
 Bull
 
       </div>    </ul>
+
+      <div id="teste">
+        <form>
+          Idade:
+          <input type='number'>
+        </form>
+
+      </div>
+
 
     <script> 
     function hide_list(el) {
