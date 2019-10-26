@@ -20,6 +20,12 @@ def teste():
 
     return render_template('teste_usuario.html')
 
+@app.route('/cadastro')
+
+def cadastro():
+
+    return render_template('cadastro.html')
+
 if __name__ == '__main__':
 
     app.run(debug=True)
