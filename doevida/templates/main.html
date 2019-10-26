@@ -5,15 +5,49 @@
 <html>
 
 <head>
-
     <title>Doe Vida</title>
 
 </head>
-<div id="cabecalho">
 <body>
 
+    <nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+    
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>Eu posso doar?</li></a>
+      <a href="#"><li>Bancos de Sangue</li></a>
+      <a href="#"><li>Qual meu tipo de Sangue?</li></a>
+    </ul>
+  </div>
+</nav>
 
 
+
+
+
+    <p id="titulo">DOE VIDA</p><br><br>
+<p id="descricao"></p>
     <p class="line-1 anim-typewriter">Quantas vidas você pode salvar hoje?</p>
         
 </div>
