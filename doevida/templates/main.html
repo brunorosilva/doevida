@@ -1,70 +1,47 @@
 <!DOCTYPE html>
-
-<link href="{{ url_for('static', filename='css/heart2.css') }}" rel="stylesheet">
-
 <html>
+
+
 
 <head>
     <title>Doe Vida</title>
-
+    <link href="{{ url_for('static', filename='css/heart2.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <nav>
+        <div id="heart" class="ac-footer-container ac-footer-brand">
+            <img src="https://image.flaticon.com/icons/svg/148/148836.svg">
+            <span class="ac-icon ac-icon-love-dark"></span>
+        </div>
+        <div class='logo'>
+            <h4> Doe Vida </h4>
+            <h6> Simplificando a doação de sangue</h6>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">O que somos?</a></li>
+            <li><a href="#">Posso doar?</a></li>
+            <li><a href="#">Onde doar?</a></li>
+            <li><a href="#">Por que doar?</a></li>
+            <li><a href="#">Parceiros</a></li>
+            <li id="agendar"><a href="#">Agende sua doação</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div id="coracoes">
+        <p class="line-1">Quantas vidas você vai salvar hoje?</p>
 
-    <nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-    
-      <a href="#"><li>Home</li></a>
-      <a href="#"><li>Eu posso doar?</li></a>
-      <a href="#"><li>Bancos de Sangue</li></a>
-      <a href="#"><li>Qual meu tipo de Sangue?</li></a>
-    </ul>
-  </div>
-</nav>
-
-
-
-
-
-    <p id="titulo">DOE VIDA</p><br><br>
-<p id="descricao"></p>
-    <p class="line-1 anim-typewriter">Quantas vidas você pode salvar hoje?</p>
-        
-</div>
-
-
-<a href="http://127.0.0.1:5000/teste_usuario">
-<div id="heart" class= "ac-footer-container ac-footer-brand">
-        <img src="https://image.flaticon.com/icons/svg/148/148836.svg">
-
-<div class="ac-footer-container ac-footer-brand">
-    <span class="ac-icon ac-icon-love-dark"></span> 
-          
-</div>
-</a>
-
-
-
+        <button class="botao_branco">
+            <a href="#">
+            Precisamos da sua ajuda
+          </a>
+        </button>
+    </div>
 </body>
 
 </html>
