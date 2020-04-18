@@ -1,104 +1,125 @@
-html{
+html {
     min-height: 100%;
     overflow: hidden;
-  }
-  body{
-    height: 300px;
-    padding: 0px 0px;
-    color: rgba(255,255,255,.75);
-    font-family: 'Anonymous Pro', monospace;  
-    background-color: #111111;  
-  }
-  #cabecalho{
-      position: relative;
-      overflow: hidden;
-      font-family: 'Anonymous Pro', monospace;
-      color: #fff;
-      margin: 0 auto;
-
-      animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
-  }
-
-  
-  #heart {
-      position: relative;
-      width: 100px;
-      height: 90px;
-      animation: heartbeat 5s infinite;
-      margin:20px auto
-  }
-  
-    
-  .line-1{
-    position: relative;
-    top: 0;  
-    width: 14px;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 14px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
 }
-  
-  @keyframes heartbeat
-  {
-    0%
-    {
-      transform: scale( .9 );
-    }
-    50%
-    {
-      transform: scale( 1 );
-    }
-    100%
-    {
-      transform: scale( .9 );
-    }
-  }
-  .anim-typewriter{
-    animation: typewriter 4s steps(44) 1s 1 normal both,
-               blinkTextCursor 500ms steps(44) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 20em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.80);}
-    to{border-right-color: transparent;}
-  }
 
-  
-  .ac-footer .ac-icon {
+head {
+    display: block;
+    overflow: visible;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    clear: both;
+    background-color: #222;
+}
+
+body {
+    margin: 0px;
+    background-color: #222;
+    padding: 0px 0px;
+    color: #000;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
+}
+
+#cabecalho {
+    position: relative;
+    overflow: hidden;
+    font-family: 'Anonymous Pro', monospace;
+    color: #000;
+    margin: 0 auto;
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+#heart {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    animation: heartbeat 5s infinite;
+    margin: 20px 0px
+}
+
+.line-1 {
+    position: static;
+    width: 50%;
+    left: 50%;
+    margin: 10px auto;
+    padding: 50px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.02);
+    opacity: 1;
+    align-items: center;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale( .85);
+    }
+    50% {
+        transform: scale( 1);
+    }
+    100% {
+        transform: scale( .85);
+    }
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+#agendar {
+    color: rgba(255, 255, 255, 1);
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 20em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(0, 0, 0, .80);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.ac-footer .ac-icon {
     position: absolute;
     left: 0;
     right: 0;
     width: 20px;
     height: 30px;
     margin: auto
-  }
-  
-  @keyframes pulse {
+}
+
+@keyframes pulse {
     0% {
-      box-shadow: 0 0 0 0 rgba(251, 54, 110, 0.05)
+        box-shadow: 0 0 0 0 rgba(251, 54, 110, 0.05)
     }
     70% {
-      box-shadow: 0 0 0 5000px rgba(251, 54, 110, 0.05)
+        box-shadow: 0 0 0 5000px rgba(251, 54, 110, 0.05)
     }
     100% {
-      box-shadow: 0 0 0 5000px rgba(251, 54, 110, 0.05)
+        box-shadow: 0 0 0 5000px rgba(251, 54, 110, 0.05)
     }
-  }
-  
-  
-  .ac-icon-love-dark {
+}
+
+.ac-icon-love-dark {
     display: block;
     position: relative
-  }
-  
-  .ac-icon-love-dark:before {
+}
+
+.ac-icon-love-dark:before {
     content: '';
     display: block;
     width: 0px;
@@ -111,13 +132,13 @@ html{
     right: 0;
     z-index: -1;
     border-radius: 100%
-  }
-  
-  .ac-footer-container:hover .ac-icon-love-dark:before {
+}
+
+.ac-footer-container:hover .ac-icon-love-dark:before {
     animation: pulse 10s ease infinite !important
-  }
-  
-  .ac-icon-triangle {
+}
+
+.ac-icon-triangle {
     width: 0;
     height: 0;
     border-top: 5px solid transparent;
@@ -126,162 +147,145 @@ html{
     position: relative;
     display: inline-block;
     margin-left: 8px
-  }
-  #titulo{
+}
+
+#titulo {
     margin: 0;
     font-size: 42px;
     text-align: center;
     align-content: center;
     letter-spacing: 10px;
-  }
-  #menu {
+}
+
+#menu {
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
-  }
-
-a
-{
-  text-decoration: none;
-  color: #232323;
-  vertical-align: top;
-  
-  transition: color 0.3s ease;
 }
 
-a:hover
-{
-  color: tomato;
+nav {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
 }
 
-#menuToggle
-{
-  display: block;
-  position: relative;
-  top: 10px;
-  left: 10px;
-  color: #000 
-  
-  z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
+.logo {
+    color: rgba(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
 
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
+.nav-links {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
 }
 
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-top: 5px;
-  position: relative;
-  
-  background: #cdcdcd;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+.nav-links li {
+    list-style: none;
 }
 
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
+.nav-links a {
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 10px;
 }
 
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 0%;
+.burger div {
+    width: 28px;
+    height: 2px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+.burger {
+    display: none;
 }
 
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+@media screen and (max-width:1024px) {
+    .nav-links {
+        width: 60%;
+    }
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -100px;
-  padding: 100px 100px;
-  padding-top: 90%;
-  
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: -100% -100%;
-  transform: translate(-100%, -100%);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+.botao_branco {
+    background-color: #fff;
+    color: #000;
+    padding: 16px 35px;
+    font-size: 14px;
+    line-height: 26px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    left: 50%;
 }
 
-#menu li
-{
-  top: 20%;
-  padding: -200px 0px;
-  font-size: 22px;
-
+.botao_branco a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
 }
 
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
+#coracoes {
+    /*background-image: url(https://uploads-ssl.webflow.com/5ded54e8cad2170d90dcb98e/5ded56a7f88fbc118538254b_4959e6e8f91b4f0f9b6f7d42655702e1.png);
+    background-size: 16px;
+    background-color: rgb(226, 226, 226);
+    opacity: .08;*/
+    display: flex;
+    height: 620px;
+    margin-bottom: 100px;
+    clear: both;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url(https://uploads-ssl.webflow.com/5ded54e8cad2170d90dcb98e/5ded56a7f88fbc118538254b_4959e6e8f91b4f0f9b6f7d42655702e1.png);
+    background-position: 50% 50%;
+    background-size: 15px;
+    opacity: 0.7;
+    color: #fff;
+    display: block;
 }
